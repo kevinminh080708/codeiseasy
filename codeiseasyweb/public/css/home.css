@@ -1,2 +1,5 @@
 @import 'nav.css';
 @import '/../nav.js';
+@import 'footer.css';
+@import '/../footer.js';
+@import 'section.css';

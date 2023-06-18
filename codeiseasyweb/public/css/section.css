@@ -1,0 +1,22 @@
+.Section {
+    margin-top: 100%;
+}
+.content {
+    margin-top: 10%;
+}
+.content h1 {
+    margin-left: 47%;
+    font-size: x-large;
+    margin-top: 80px;
+}
+.content p {
+    word-wrap: break-word;
+    width: 45%;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.content img {
+    width: 20%;
+    height: 35%;
+    border-radius: 10%;
+}
