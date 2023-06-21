@@ -7,10 +7,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-
-
 .footer {
-    margin-top: 8%;
+  margin-top: 20%;
   position: relative;
   width: 100%;
   background: #3586ff;
@@ -20,7 +18,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 40%;
+  padding-bottom: 100%;
 }
 
 .social-icon,
