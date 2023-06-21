@@ -19,4 +19,17 @@
     width: 20%;
     height: 35%;
     border-radius: 10%;
+    
+}
+.content .u1 {
+    display: flex;
+    padding-top: 20px;
+}
+.content .u1 .div {
+    flex: 1;
+    text-align: center;
+}
+.content .u1 .div img {
+    height: 80%;
+    width: 50%;
 }
