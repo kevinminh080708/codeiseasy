@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'MyAppleFont';
+  src: url('https://url-to-your-font-file.woff2') format('woff2'),
+       url('https://url-to-your-font-file.woff') format('woff');
+  /* Add additional font formats if necessary (e.g., ttf, svg) */
+  /* Define the path to your font files in the "url" property */
+}
 .body {
   margin-top: 20%;
   overflow-x: hidden;
+  font-family: 'MyAppleFont', sans-serif;
 }
 .navbar{
   position: fixed !important;
@@ -21,12 +29,12 @@
   margin: 10px 15px 15px 10px;
 }
 .navbar a {
-  color: black;
+  color: #424c64;
   text-decoration: none;
   font-size: 17px;
   font-weight: 100%;
   padding: 14px 10px;
 }
 .navbar a:hover {
-  color: gray;
+  color: #ACADB0;
 }
