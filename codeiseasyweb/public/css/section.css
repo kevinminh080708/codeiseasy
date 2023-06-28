@@ -1,8 +1,6 @@
 .Section {
     margin-top: 100%;
-}
-.content {
-    margin-top: 10%;
+
 }
 .content h1 {
     margin-left: 47%;
@@ -19,4 +17,17 @@
     width: 20%;
     height: 35%;
     border-radius: 10%;
+    
+}
+.content .u1 {
+    display: flex;
+    padding-top: 20px;
+}
+.content .u1 .div {
+    flex: 1;
+    text-align: center;
+}
+.content .u1 .div img {
+    height: 80%;
+    width: 50%;
 }
