@@ -1,17 +1,37 @@
+@font-face {
+  font-family: 'MyAppleFont';
+  src: url('https://url-to-your-font-file.woff2') format('woff2'),
+       url('https://url-to-your-font-file.woff') format('woff');
+  /* Add additional font formats if necessary (e.g., ttf, svg) */
+  /* Define the path to your font files in the "url" property */
+}
 .section {
     height: 100vh; /* Set the height of each section */
   }
   
   .section1 {
     background-color: black;
-    
+    font-family: 'MyAppleFont', sans-serif;
+    font-size: x-large;
   }
   .section1 h1 {
     color: white;
+    margin-left: 85vh;
+    margin-top: 50vh;
+  }
+  .section1 .arrow {
+    height: 3vh;
+    margin-left: 89vh;
+    margin-top: 30vh;
   }
   
   .section2 {
     background-color: white;
+  }
+  .section2 h1 {
+    color: black;
+    margin-left: 85vh;
+    margin-top: 90vh;
   }
   
   .section3 {
