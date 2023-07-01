@@ -1,0 +1,22 @@
+.section {
+    height: 100vh; /* Set the height of each section */
+  }
+  
+  .section1 {
+    background-color: black;
+    
+  }
+  .section1 h1 {
+    color: white;
+  }
+  
+  .section2 {
+    background-color: white;
+  }
+  
+  .section3 {
+    background-color: black;
+  }
+  body {
+    transition: background-color 0.5s; /* Add transition property for smooth color change */
+  }

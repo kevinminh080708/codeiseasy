@@ -12,7 +12,7 @@
 }
 .navbar{
   position: fixed !important;
-  background-color: white;
+  background-color: transparent;
   overflow: hidden;
   top: 0;
   left: 0;
