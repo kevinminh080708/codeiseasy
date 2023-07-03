@@ -5,28 +5,54 @@
   /* Add additional font formats if necessary (e.g., ttf, svg) */
   /* Define the path to your font files in the "url" property */
 }
-.section {
+ .section {
     height: 100vh; /* Set the height of each section */
   }
   
   .section1 {
     background-color: black;
     font-family: 'MyAppleFont', sans-serif;
-    font-size: x-large;
+    
+  }
+  .section1 h6 {
+    color: transparent;
   }
   .section1 h1 {
-    color: white;
-    margin-left: 85vh;
+    font-size: 10vh;
+    margin-left: 41vh;
     margin-top: 50vh;
+    position: relative;
+    background-image: url('/codetest.jpg');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
   }
+
+  .section h1 img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
   .section1 .arrow {
     height: 3vh;
-    margin-left: 89vh;
+    margin-left: 86vh;
     margin-top: 30vh;
   }
   
   .section2 {
     background-color: white;
+    
+  }
+  .section2 h6{
+    color: transparent;
   }
   .section2 h1 {
     color: black;
